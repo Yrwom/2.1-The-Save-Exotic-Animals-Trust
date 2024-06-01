@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE roster SYSTEM "seatrusttxt.dtd" >
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+
+   The Save Exotic Animals Trust donor roster
+   Author: Nicholas Mowry
+   Date:   5/31/2024
+
+   Filename:             roster.xml
+   Supporting document:  seatrust.dtd
+-->
+
+<roster>
+   <Title>Founding Circle Donors</Title>
+      <donor level ="Founder">
+         <name>David Brennan</name>
+         <address>5133 Oak Street Windermere, FL  34786</address>
+         <phone type = "work" >(407) 555-8981 home</phone>
+         <phone type = "cell" >  (407) 555-8189 cell</phone>
+         <email>dbrennan@example.net</email>
+         <donation currency = "USD">$50,000</donation>
+         <method>phone</method>
+         <effectiveDate>9/1/1982 </effectiveDate>
+      </donor>
+
+      <donor level ="Founder">
+         <name>Cindy Wu</name>
+         <address>31 Alice Avenue
+            Windermere, FL 34786</address>
+         <phone type = "home" >(407) 555-7212 home</phone>
+         <email>cwu@example.net</email>
+         <donation currency = "USD">$50,000</donation>
+         <method>Method: phone</method>
+         <effectiveDate>EffectiveDate: 9/1/1982</effectiveDate>
+      </donor>
+
+<sponsor>Sponsorship Donors</sponsor>
+
+
+<donor level ="Sponsor">
+   <name>David Olson</name>
+   <address>5133 Oak Street
+      Windermere, FL  34786</address>
+   <phone type = "home" >(407) 555-8981 home</phone>
+      <phone type = "cell">(407) 555-8189 cell</phone>
+   <email>dolson@example.net</email>
+   <donation currency = "USD">$25,000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>EffectiveDate:7/3/1985</effectiveDate>
+</donor>
+
+<donor level ="Sponsor">
+   <name>Wilmer Stonehedge</name>
+   <address>31 Alice Avenue
+      Windermere, FL 34786</address>
+   <phone type = "cell" >(407) 555-7212</phone>
+   <email>wstone@example.net</email>
+   <donation currency = "USD">$25,000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>EffectiveDate: 10/3/1994</effectiveDate>
+</donor>
+
+<patron>Patron Donors</patron>
+
+<donor level ="Sponsor">
+   <name>Lee Unwin</name>
+   <address>451 Unwin Ct.
+      Orlando, FL 32801</address>
+   <phone type = "cell" >(407) 555-9082</phone>
+   <email>leeunwin@example.net</email>
+   <donation currency = "USD">$18,000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>EffectiveDate: 11/1/1998</effectiveDate>
+</donor>
+
+<donor level ="Sponsor">
+   <name>Jane Whitney</name>
+   <address>87 Hilltop Drive
+      Windermere, FL 34786</address>
+   <phone type = " work" >(407) 555-7493</phone>
+   <email></email>
+   <donation currency = "USD">$15,000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>EffectiveDate: 11/1/1998</effectiveDate>
+</donor>
+
+<donor level ="Sponsor">
+   <name>Andrew Sanchez</name>
+   <address>891 Lindon Lane
+      Windermere, FL 34786</address>
+   <phone type = "cell" >(407) 555-4313</phone>
+   <email>asanchez@example.com</email>
+   <donation currency = "USD">$15,000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>EffectiveDate: 3/4/2000</effectiveDate>
+</donor>
+
+
+<friendship>Friendship Donor</friendship>
+
+<donor level ="Friendship">
+   <name>Gary Windt</name>
+   <address>55 Hawking Street
+      Windermere, FL 34786</address>
+   <phone type = "home" >(407) 555-9939</phone>
+   <email>windtg@example.com</email>
+   <donation currency = "USD">$1000</donation>
+   <method>Method: phone</method>
+   <effectiveDate>Effective Date: 3/4/2000</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Cynthia Browne</name>
+   <address>71 Circuit Ct.
+      Wheaton, KY 89321</address>
+   <phone type = "cell" >(407) 555-3813</phone>
+   <email>cynthia@example.com</email>
+   <donation currency = "USD">$1000</donation>
+   <method>Method: phone</method>
+   <effectiveDate>Effective Date: 3/4/2000</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Howard Li</name>
+   <address>4312 East Oak Avenue
+      Youngston, KY 89318</address>
+   <phone type = "home" >(407) 555-3921</phone>
+   <email>$1000</email>
+   <donation currency = "USD"></donation>
+   <method>Method: mail</method>
+   <effectiveDate>Effective Date: 3/4/2011</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Uma Thu</name>
+   <address>25 Longton Lane
+      Windermere, FL 34786</address>
+   <phone type = "cell" >(407) 555-8730</phone>
+   <email></email>
+   <donation currency = "USD">$1000</donation>
+   <method>Method: personal</method>
+   <effectiveDate>Effective Date: 4/4/2012</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Alan Wilkes</name>
+   <address>321 Ashburn
+      Jasper, KY 89831</address>
+   <phone type = "home" >(407) 555-1181</phone>
+   <email>wilkes_alan@example.edu</email>
+   <donation currency = "USD">$500</donation>
+   <method>Method: mail</method>
+   <effectiveDate>Effective Date: 1/4/2012</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Steve Bones</name>
+   <address>900 Lawton Street
+      Wheaton, KY 89211</address>
+   <phone type = "cell" >(407) 555-5434</phone>
+   <email></email>
+   <donation currency = "USD">$500</donation>
+   <method>Method: phone</method>
+   <effectiveDate>Effective Date: 9/14/2012</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Jeri White</name>
+   <address>Hawkes Lane
+      Windermere, FL 89211</address>
+   <phone type = "cell" >(407) 555-8828</phone>
+   <email>jeri_white@example.com</email>
+   <donation currency = "USD">$300</donation>
+   <method>Method: phone</method>
+   <effectiveDate>Effective Date: 12/4/2012</effectiveDate>
+</donor>
+
+
+<donor level ="Friendship">
+   <name>Tom Thomas</name>
+   <address>Rigel Avenue
+      Apopka, FL 32703</address>
+   <phone type = "home" >(407) 555-8311</phone>
+   <email></email>
+   <donation currency = "USD">$100</donation>
+   <method>Method: phone</method>
+   <effectiveDate>Effective Date: 2/4/2012</effectiveDate>
+</donor>
+
+</roster>

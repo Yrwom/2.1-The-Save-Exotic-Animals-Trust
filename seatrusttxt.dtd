@@ -1,0 +1,28 @@
+<!--
+   New Perspectives on XML
+   Tutorial 2
+   Case Problem 3
+
+   The Save Exotic Animals Trust DTD
+   Author: Nicholas Mowry
+   Date:   5/31/2024
+
+   Filename:          seatrust.dtd
+   Supporting file:   roster.xml
+-->
+<!ELEMENT roster (Title, donor*, sponsor, donor*, patron, donor*, friendship, donor*)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT sponsor (#PCDATA)>
+<!ELEMENT patron (#PCDATA)>
+<!ELEMENT friendship (#PCDATA)>
+<!ATTLIST donor level (Friendship | Patron | Sponsor | Founder) "Friendship">
+<!ELEMENT donor (name, address, phone+, email, donation, method, effectiveDate)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST phone type CDATA "cell | work | home">
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST donation currency CDATA "USD">
+<!ELEMENT donation (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT effectiveDate (#PCDATA)>
